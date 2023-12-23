@@ -5,14 +5,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"94"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos"			"195"	[$WIN32]
+		"ypos"			"375"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterFG"		"cruelteal"
+		"MeterBG"		"255 255 255 255"
 	}
 	
 	"ItemEffectMeterBG"
@@ -39,8 +37,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"0"
+		"ypos"					"6"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -53,7 +51,29 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"mingliu6"
+		"font"					"mingliu8"
+		"fgcolor"               "cruelteal"
+	}
+	"ItemEffectMeterLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"1"
+		"ypos"					"6"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_KillStreak"
+		"textAlignment"			"east"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"mingliu8"
+		"fgcolor"               "0 0 0 255"
 	}
 
 	"ItemEffectMeter"
@@ -63,11 +83,8 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -82,8 +99,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"10"
+		"xpos"					"0"
+		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -95,6 +112,27 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"mingliu8"
+		"font"					"mingliu10"
+		"fgcolor" 				"255 255 255 255"
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"1"
+		"ypos"					"11"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"mingliu10"
+		"fgcolor"               "0 0 0 255"
 	}
 }

@@ -1,5 +1,22 @@
 "Resource/HudLayout.res"
+
 {
+	CustomCrosshair
+	{
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			":"
+		"controlName"		"CExLabel"
+		"fieldName"			"CustomCrosshair"
+		"zpos"				"2"
+		"xpos"				"c-960"
+		"ypos"				"c-540"
+		"wide"				"1920"
+		"tall"				"1080"
+		"font"				"Size:20 | Outline:ON"
+		"textAlignment"		"center"
+		"fgcolor"			"myred"
+	}
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -59,8 +76,8 @@
 		"ypos"			"r52"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterFG"		"cruelteal"
+		"MeterBG"		"255 255 255 255"
 	}
 	
 	HudMedicCharge
